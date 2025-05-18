@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario CV</title>
+</head>
+<body>
+  <h1>Currículum Vitae</h1>
+  <form action="procesar_cv.html" method="get">
+    
+    <h2>Datos personales</h2>
+<label>Nombre completo: <input type="text" name="nombre" required></label><br>
+<label>DNI: <input type="text" name="dni"></label><br>
+<label>Fecha de nacimiento: <input type="date" name="nacimiento"></label><br>
+<label>Correo electrónico: <input type="email" name="email"></label><br>
+<label>Teléfono: <input type="tel" name="telefono"></label><br>
+
+<h2>Información académica</h2>
+<label>Título: <input type="text" name="titulo"></label><br>
+<label>Institución: <input type="text" name="institucion"></label><br>
+<label>Año de finalización: <input type="number" name="año_titulo"></label><br>
+
+<h2>Experiencia laboral</h2>
+<label>Empresa: <input type="text" name="empresa"></label><br>
+<label>Puesto: <input type="text" name="puesto"></label><br>
+<label>Desde: <input type="month" name="desde"></label>
+<label>Hasta: <input type="month" name="hasta"></label><br>
+<label>Descripción: <br>
+<textarea name="descripcion_experiencia" rows="4" cols="50"></textarea></label><br>
+
+<h2>Referencias Laborales</h2>
+<label>Nombre de referencia: <input type="text" name="referente"></label><br>
+<label>Teléfono: <input type="tel" name="tel_referente"></label><br>
+<label>Correo: <input type="email" name="email_referente"></label><br>
+
+
+    <input type="submit" value="Enviar CV">
+  </form>
+</body>
+</html>

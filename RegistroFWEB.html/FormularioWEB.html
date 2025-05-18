@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - MI WEB</title>
+</head>
+<body>
+    <form action="". method="get">
+<h1><em>Bienvenidos al Formulario de Registro</em></h1> 
+<h2>Completa los siguientes campos</h2>
+
+        <label for="name">Nombre :</label>
+        <input type="text" id="Nombre" name="Nombre" required>  <br>
+        <label for="name">Apellido :</label>
+        <input type="text" id="Apellido" name="apellido" required> <br>
+        <label for="name">Correo electronico :</label>
+        <input type="text" id="Correo" name="correo electronico" required> <br>
+        <label for="name">Contraseña :</label>
+        <input type="password" name="Ingrese contraseña" required> <br>
+        <label for="name">Repetir Contraseña :</label> 
+        <input type="password" name="Repetir Contraseña" required> <br>
+
+        <label><strong>Sexo :</strong></label> <br>
+        <input type="radio" id="Sexo" name="Hombre" value="Hombre">
+        <label for="Hombre">Hombre <br></label>
+
+        <input type="radio" id="Sexo" name="Mujer" value="Mujer"
+        <label for="Mujer">Mujer <br></label> 
+
+        <input type="checkbox" name="Novedades" checked>
+        <label for="Novedades">Deseo recibir información sobre novedades y ofertas</label> <br>
+        <input type="checkbox" name="Condiciones" checked>
+        <label for="Condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label> <br>
+        <a href="Condicionesgenerales.html">Leer aqui Condiciones Generales</a>
+
+        <h3>Estado Civil</h3>
+        <select name="Estado Civil">
+            <option value="soltero/a" selected>Soltero/a</option>
+            <option value="casado/a">Casado/a</option>
+            <option value="divorciado/a">Divorciado/a</option>
+            <option value="viudo/a">Viudo/a</option>
+        </select>
+
+        <h3>Seleccione el Pais</h3>
+        <select name="Pais">
+        <option value="argentina" selected>Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="uruguay">Uruguay</option>
+        <option value="paraguay">Paraguay</option>
+        <option value="colombia">Colombia</option>
+        <option value="venezuela">Venezuela</option>
+        <option value="bolivia">Bolivia</option>
+        <option value="ecuador">Ecuador</option>
+        <option value="peru">Peru</option>
+        <option value="chile">Chile</option>
+        </select>
+
+        <h3>Datos de ubicación</h3>
+        <label for="provincia">Provincia</label>
+        <input type="text" id="provincia" name="provincia" required> <br>
+        <label for="localidad">Localidad</label>
+        <input type="text" id="localidad" name="localidad" required> <br>
+        <label for="dirección">Dirección</label>
+        <input type="text" id="dirección" name="dirección" required> <br>
+        <label for="numero de dirección">Número de dirección</label>
+        <input type="text" id="numero de dirección" name="numero de dirección" required> <br>
+        <label for="departamento">Departamento</label>
+        <input type="text" id="departamento" name="departamento" required> <br>
+        <br>
+        
+        <button>
+            Enviar Formulario
+        </button>
+    </form>
+</body>
+</html>
